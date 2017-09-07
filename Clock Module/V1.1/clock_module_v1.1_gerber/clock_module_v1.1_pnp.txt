@@ -1,0 +1,49 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=clock_module_v1.1
+*Date=08:24:53
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;THT;20.0834;-67.1956;0;Bottom;SIG-in
+2;;;5.02736;-5.04566;0;Bottom;Hole4
+3;;;44.9231;-79.6589;0;Bottom;TXT2
+4;;;7.52531;-41.0865;0;Bottom;TXT1
+5;;;54.0343;-56.9958;0;Bottom;Hole9
+6;;;45.0169;-41.5119;0;Bottom;Hole8
+7;;THT;12.7186;-49.0457;-90;Bottom;SENSOR
+8;;;6.29179;-48.7801;0;Bottom;TXT1
+9;;THT;13.9486;-31.6159;-90;Bottom;PIXELS
+10;;;5.02736;-78.0456;0;Bottom;Hole2
+11;470;THT;15.0986;-27.2299;180;Bottom;R1
+12;;THT;64.8093;-47.4731;0;Bottom;A4
+13;;;23.1808;-73.5379;0;Bottom;TXT1
+14;1mF;200 mil [THT, electrolytic];13.7229;-40.901;180;Bottom;C1
+15;;;23.8946;-12.3076;0;Bottom;TXT3
+16;;;64.5353;-42.6598;0;Bottom;TXT3
+17;;THT;24.2902;-48.7629;180;Bottom;A1
+18;;dipswitch-02;12.2169;-14.3555;0;Bottom;SW2
+19;;THT;68.2885;-67.1956;0;Bottom;SIG-out
+20;;;24.3303;-44.4569;0;Bottom;TXT3
+21;;;54.0343;-7.01857;0;Bottom;Hole10
+22;;THT;23.8573;-16.9296;180;Bottom;B3
+23;;motor-64mm;45.0059;-31.9901;0;Bottom;VID28-05
+24;;;6.72953;-70.9327;0;Bottom;TXT1
+25;;;65.1469;-13.233;0;Bottom;TXT3
+26;;;84.9085;-5.04566;0;Bottom;Hole1
+27;;;84.9085;-78.0456;0;Bottom;Hole3
+28;;;33.0339;-32.0537;0;Bottom;Hole6
+29;;;65.6682;-73.45;0;Bottom;TXT1
+30;1mF;200 mil [THT, electrolytic];12.4478;-71.0249;180;Bottom;C2
+31;;;8.23446;-31.5479;0;Bottom;TXT1
+32;;dipswitch-02;7.10356;-14.3555;0;Bottom;SW1
+33;;THT;65.0023;-18.3193;0;Bottom;B2
+34;;;78.0286;-33.6894;0;Bottom;NANO

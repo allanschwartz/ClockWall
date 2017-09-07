@@ -1,0 +1,25 @@
+unknown
+
+http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/ACS712.aspx
+
+about the ACS712 Hall-Effect Current Sensor IC
+
+high-power '595:
+ TPIC6B595  about 50 cents each
+
+high power driver:
+  CD74HC365E    about $1.50 each
+
+
+page includes schematic diagram of VID29-05
+https://www.aliexpress.com/store/product/Glorification-original-vid28-05-instrument-motor-jac-yuet-with-micro-stepper-motor/1046577_1522796250.html
+
+per Michael K., 
+use a 24v power supply (or maybe a 12v power supply),
+and have a DC to DC converter on each board.
+
+I found this circuit online:
+http://www.circuit-finder.com/categories/power-supply/dc-power-supply/876/5v-regulated-power-supply-circuit-diagram
+
+
+

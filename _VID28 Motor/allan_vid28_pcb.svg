@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hand coded by Allan Schwartz, Aug 7, 2017  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     x="0" y="0" width="35mm" height="64mm"
+	 viewBox="0 0 35 64" enable-background="new 0 0 35 65" xml:space="preserve">
+<!-- User units, per the viewBox are in mm, width and height likewise in mm -->
+<g id="silkscreen">
+    <rect fill="none" stroke="#FFFFFF" stroke-width="0.75" 
+       width="35" height="64" x="0" y="0" ry="17.5" />
+    <text id="textA1"
+        x="29.925" y="12.68" 
+       font-family="OCRA" font-size="8pt" fill="#373435">A1</text>
+    <text id="textA2"
+        x="29.925" y="20.38" 
+       font-family="OCRA" font-size="8pt" fill="#373435">A2</text>
+    <text id="textA3"
+        x="7.075" y="20.38" 
+       font-family="OCRA" font-size="8pt" fill="#373435">A3</text>
+    <text id="textA4"
+        x="7.075" y="12.68"
+       font-family="OCRA" font-size="8pt" fill="#373435">A4</text>
+    <text id="textB1"
+        x="7.075" y="51.52"
+       font-family="OCRA" font-size="8pt" fill="#373435">B1</text>
+    <text id="textB2"
+        x="7.075" y="43.62"
+       font-family="OCRA" font-size="8pt" fill="#373435">B2</text>
+    <text id="textB3"
+        x="29.925" y="43.62" 
+       font-family="OCRA" font-size="8pt" fill="#373435">B3</text>
+    <text id="textB4"
+        x="29.925" y="51.32"
+       font-family="OCRA" font-size="8pt" fill="#373435">B4</text>
+</g>
+<g id="copper0">
+	<g id="copper1">
+        <!-- x values are 35mm/2 - 22.85mm/2 = 6.075mm
+                      and 35mm/2 + 22.85mm/2 = 28.925mm     -->
+        <!-- y values are 64mm/2 + 23.24/2 + 7.7    =  51.32 mm     
+                          64mm/2 + 23.24/2          =  43.62 mm
+                          64mm/2 - 23.24/2          =  20.38 mm
+                          64mm/2 - 23.24.2 - 7.7    =  12.68 mm     -->
+        <!-- strokewidth and r are for:
+                lead: .5, holesize: 1.0, pad Diameter: 1.6  -->
+		<circle id="connA1pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5" 
+            cx="28.925" cy="12.68" r="0.8"/>
+		<circle id="connA2pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5" 
+            cx="28.925" cy="20.38" r="0.8"/>
+		<circle id="connA3pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5"
+            cx="6.075" cy="20.38" r="0.8"/>
+		<circle id="connA4pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5"
+            cx="6.075" cy="12.68" r="0.8"/>
+		<circle id="connB1pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5"
+            cx="6.075" cy="51.52" r="0.8"/>
+		<circle id="connB2pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5"
+            cx="6.075" cy="43.62" r="0.8"/>
+		<circle id="connB3pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5" 
+            cx="28.925" cy="43.62" r="0.8"/>
+		<circle id="connB4pin" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5" 
+            cx="28.925" cy="51.32" r="0.8"/>
+        <!-- y=64/2 - 9.5 , hole radius=6 -->
+		<circle id="shaft" 
+            fill="none" stroke="#FFBF00" stroke-width="0.5" 
+            cx="17.5" cy="22.5" r="3.0"/>
+        <!-- three alighnment holes, hole dia 3.5
+                (35/2 - 9,  64/2 - 50/2)
+                (35/2 + 12, 64/2)
+                (35/2 - 9   64/2 + 50/2),  -->
+		<circle id="align1" 
+            fill="none" stroke="#FFBF00" stroke-width="0.2" 
+            cx="8.5" cy="7" r="1.75"/>
+		<circle id="align2" 
+            fill="none" stroke="#FFBF00" stroke-width="0.2" 
+            cx="29.5" cy="32" r="1.75"/>
+		<circle id="align3" 
+            fill="none" stroke="#FFBF00" stroke-width="0.2" 
+            cx="8.5" cy="57" r="1.75"/>
+	</g>
+</g>
+<g id="keepout">
+</g>
+<g id="soldermask">
+</g>
+<g id="outline">
+</g>
+</svg>

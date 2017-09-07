@@ -1,0 +1,57 @@
+
+
+Arduino               
+                     
+D0  - Tx                            CONN1
+D1  - Rx
+D2  - (INT0)StrobeIn                MOSI  - DATA   pin1
+D3  - NEO_PXL                       SR_OE - OE*    pin2
+D4  -                               SR_ST - STORE  pin3
+D5  -                               SCLK  - SCLK   pin4
+D6  -                   
+D7  -               
+D8  - SR_ST
+D9  - SR_OE                               
+D10 - SS                                
+D11 - MOSI                            
+D12 - MISO                       74HC165                DIP Switch
+D13 - SCLK                       8-bit shift register   8-bit
+A0  -                            (x 1)                  (x 1)       RPak
+A1  - 
+A2  - Current1          (MISO)  Q7 - 9  11 - D0             SW1     pulled-dwn (open)
+A3  - Current2           nc    ~Q7 - 7  12 - D1             SW2     or +5 (ON or closed)
+A4  - I2C_SDA           (SCLK)  CP - 2  13 - D2             SW3
+A5  - I2C_SCL           (SS)   ~CE - 15 14 - D3             SW4
+A6  - Current3           nc     DS - 10  3 - D4             SW5
+A7  - Current4          (LOAD) ~PL - 1   4 - D5             SW6
+                                         5 - D6             SW7
+                                         6 - D7             SW8
+
+------------------------------------------------------------------------
+
+
+CONN1          74HC245                  74HC595                         VID28 Motor
+               8-bit buffer             8-bit shift register            x 4
+DATA_IN pin1                            x 8
+OE*     pin2
+STORE   pin3      Vcc (DIR)1 19 GND        
+SCLK    pin4   DATA_IN (A0)2 18(B0) DATA'   (DATA')    DS - 14 15 - Q0 (nc)       
+               OE*     (A2)4 16(B2)  OE*'   (OE*')    ~OE - 13  1 - Q1 (nc) 
+               STORE   (A4)6 14(B4) STORE'  (STORE') STCP - 12  2 - Q2 (nc)        
+               SCLK    (A6)8 12(B6) SCLK'   (SCLK')  SHCP - 11  3 - Q3 (nc)  
+                                            Vcc        MR - 10  4 - Q4     A1/B1
+                                             (next DS) Q7S - 9  5 - Q5     A2/B2
+                                                                6 - Q6     A3/B3
+                                                                7 - Q7     A4/B4
+                                        
+                                      
+
+Inventory
+(1) Arduino Micro or Nana or Uno
+(1) 74HC245 8-bit buffer
+(8) 74HC595 8-bit serial-in/parallel-out shift register with output latches; 3-state
+(1) 74HC165 8-bit parallel-in/serial out shift register
+(1) DIP Switch, 8-bit
+(1) resister pack, 8 resistors, 10K 
+(3) capacitors
+

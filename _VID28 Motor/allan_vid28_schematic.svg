@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Hand coded by Allan -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   height="31.528576mm"
+   width="17.808117mm"
+   x="0in"
+   y="0in"
+   viewBox="0 0 701.10701 1241.2826"
+   id="svg3405"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="allan_vid28_schematic.svg">
+  <metadata
+     id="metadata3434">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3432" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1325"
+     inkscape:window-height="856"
+     id="namedview3430"
+     showgrid="false"
+     inkscape:zoom="5.5319124"
+     inkscape:cx="31.5324"
+     inkscape:cy="55.857724"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3405"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <desc
+     id="desc3407">
+    <referenceFile>Tobiko-x27-168-schematic.svg</referenceFile>
+  </desc>
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:10"
+     cy="400.73117"
+     cx="396.10699"
+     r="300"
+     id="circle3410" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:8;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="m 101.107,295.73117 100,0 0,20 a 20,20 0 0 1 0,40 20,20 0 0 1 0,40 20,20 0 0 1 0,40 20,20 0 0 1 0,40 l 0,20 -100,0"
+     id="path3412" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     x2="101.107"
+     x1="6.1069999"
+     y2="295.73117"
+     y1="295.73117"
+     id="connA3pin">
+    <title
+       id="A3">A3</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     y="295.71918"
+     width="0.214"
+     x="6.6757204e-09"
+     height="0.024"
+     id="connector1terminal" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     x2="101.107"
+     x1="6.1069999"
+     y2="495.73117"
+     y1="495.73117"
+     inkscape:label="#connA4pin"
+     id="connA4in">
+    <title
+       id="A4">A4</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     y="495.71918"
+     width="0.214"
+     x="6.6757204e-09"
+     height="0.024"
+     id="connector2terminal" />
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     y="796.62415"
+     width="0.024"
+     x="301.095"
+     height="0.214"
+     id="connector3terminal" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:8;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="m 293.05547,101.08546 0,100 20,0 a 20,20 0 0 0 40,0 20,20 0 0 0 40,0 20,20 0 0 0 40,0 20,20 0 0 0 40,0 l 20,0 0,-100"
+     id="path3414" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     x2="293.05545"
+     x1="293.05545"
+     y2="101.08546"
+     y1="6.0854554"
+     id="connA2pin">
+    <title
+       id="A2">A2</title>
+  </line>
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     x2="493.05545"
+     x1="493.05545"
+     y2="101.08546"
+     y1="6.0854554"
+     inkscape:label="#connA1in"
+     id="connA1pin">
+    <title
+       id="A1">A1</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     y="796.62415"
+     width="0.024"
+     x="501.095"
+     height="0.214"
+     id="connector4terminal" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:10"
+     r="300"
+     cx="396.10699"
+     cy="845.17554"
+     id="circle3438" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:8;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="m 101.107,740.17558 100,0 0,20 a 20,20 0 0 1 0,40 20,20 0 0 1 0,40 20,20 0 0 1 0,40 20,20 0 0 1 0,40 l 0,20 -100,0"
+     id="path3440" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:8;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="m 301.107,1140.1756 0,-100 20,0 a 20,20 0 1 1 40,0 20,20 0 1 1 40,0 20,20 0 1 1 40,0 20,20 0 1 1 40,0 l 20,0 0,100"
+     id="path3442" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     y1="740.17554"
+     y2="740.17554"
+     x1="6.1069999"
+     x2="101.107"
+     id="connB4pin">
+    <title
+       id="B4">B4</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     height="0.024"
+     x="6.6757204e-09"
+     width="0.214"
+     y="740.16357"
+     id="rect3446" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     y1="940.17554"
+     y2="940.17554"
+     x1="6.1069999"
+     x2="101.107"
+     id="connB3pin">
+    <title
+       id="B3">B3</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     height="0.024"
+     x="6.6757204e-09"
+     width="0.214"
+     y="940.16357"
+     id="rect3450" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     y1="1235.1757"
+     y2="1140.1757"
+     x1="301.10699"
+     x2="301.10699"
+     id="connB2pin">
+    <title
+       id="B2">B2</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     height="0.214"
+     x="301.095"
+     width="0.024"
+     y="1241.0686"
+     id="rect3454" />
+  <line
+     style="fill:none;stroke:#787878;stroke-width:12;stroke-linecap:round;stroke-linejoin:round"
+     y1="1235.1757"
+     y2="1140.1757"
+     x1="501.10699"
+     x2="501.10699"
+     id="connB1pin">
+    <title
+       id="B1">B1</title>
+  </line>
+  <rect
+     style="fill:none;stroke:none;stroke-width:0"
+     height="0.214"
+     x="501.095"
+     width="0.024"
+     y="1241.0686"
+     id="rect3458" />
+    <text id="textA1"
+       x="509.96448" y="123.93405" 
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">A1</text>
+    <text id="textA2"
+       x="154.40892" y="123.93405"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">A2</text>
+    <text id="textA3"
+       x="0" y="279.48965"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">A3</text>
+    <text id="textA4"
+       x="0" y="590.60083"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">A4</text>
+    <text id="textB1"
+     x="509.96454" y="1212.8228"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">B1</text>
+    <text id="textB2"
+     x="176.63115" y="1212.8228"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">B2</text>
+    <text id="textB3"
+     x="0" y="1035.0454"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">B3</text>
+    <text id="textB4"
+     x="0" y="723.9342"
+       font-family="OCRA" font-weight="500" font-size="80" fill="#373435">B4</text>
+</svg>

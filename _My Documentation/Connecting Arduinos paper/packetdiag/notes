@@ -1,0 +1,27 @@
+
+
+http://interactive.blockdiag.com/packetdiag/
+
+request message
+
+// request packet format
+packetdiag {
+   colwidth = 8 
+   0-7: cm d
+   8-15: len 
+   16-23: naddr.0 (row)
+   24-31: naddr.1 (col)
+   32-47: arg1
+   48-63: arg2
+   64-71: crc
+}
+
+
+// response packet format
+packetdiag {
+   colwidth = 8 
+   0-7: ACK or NAK
+   8-15: len = 4
+   16-23: info
+   24-31: crc
+}
