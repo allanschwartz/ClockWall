@@ -48,24 +48,16 @@ void loop()
     Serial.println("clockwise");
     stepperA.step(stepsPerRevolution);
     stepperB.step(stepsPerRevolution);
-        stepperA.step(stepsPerRevolution);
-    stepperB.step(stepsPerRevolution);
-        stepperA.step(stepsPerRevolution);
-    stepperB.step(stepsPerRevolution);
-        stepperA.step(stepsPerRevolution);
-    stepperB.step(stepsPerRevolution);
-    delay(500);
+
+    delay(1000);
 
     // step one revolution in the other direction:
     Serial.println("counterclockwise");
     stepperA.step(-stepsPerRevolution);
     stepperB.step(-stepsPerRevolution);
-        stepperA.step(-stepsPerRevolution);
-    stepperB.step(-stepsPerRevolution);
-        stepperA.step(-stepsPerRevolution);
-    stepperB.step(-stepsPerRevolution);
-        stepperA.step(-stepsPerRevolution);
-    stepperB.step(-stepsPerRevolution);
-    delay(500);
+
+    delay(1000);
+    
+    delay(2000);
 }
 
