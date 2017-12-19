@@ -1,0 +1,53 @@
+Changes between v1.3 and v1.4
+
+DONE    LDR1, LDR2 are too close to D12
+
+DONE    R1, R2, R3, R4, R5, R6 are too close together
+
+DONE    R7, R8, R9, R10, R11, R12 are too close together
+
+DONE    R13, R14, R15 .. R23 are too close together
+
+DONE    replace C1 with a electrolytic cap
+            maybe 16v, 47uF, 100mil spacing
+            improve spacing between C1 and C2
+
+DONE    spec LEDs color, based on parts availability
+
+DONE    generally improve silkscreen
+
+DONE    correct the DIP-SWITCH Fritzing model, and replace
+        silkscreen art somehow ended up in copper0 layer
+
+DONE    make sure the resistors around the DIP-SWITCH have 1mm clearance
+
+DONE    Rename CONN1/CONN2  to J-1, J-2
+
+undone    Change J1, J2 to 2.0 pitch; JST-PH series.
+            PHR-5 female housing  (digi key     455-1163-ND )
+            B5B-PH-K-S(LF)(SN) , CONN HEADER PH TOP 5POS 2mm  (digi key 455-1707-ND )
+
+NO      Draw cable drawing for PH cable
+
+DONE    replace all 0805 resistors with 1206 resistors .. if they fit.
+        (or not, depending on difficultly of soldering)
+
+NO      replace U1/U2 74HC595D, with proper wide version of chip.  
+
+DONE    decoupling CAP under U1 & U2
+
+DONE    replace all 0805 LEDs with 1206 LEDs
+
+[  ]    Test LDR1/LDR2 combo
+
+DONE    Test resistor ladder on ID Switch,
+
+DONE    Test motor
+
+[  ]    Test LE
+
+[  ]    Test dimming LEDs
+
+[  ]    Test I2C
+
+DONE    Prepare new costed BOM

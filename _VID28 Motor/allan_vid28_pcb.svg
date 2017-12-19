@@ -3,36 +3,67 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-     x="0" y="0" width="35mm" height="64mm"
-	 viewBox="0 0 35 64" enable-background="new 0 0 35 65" xml:space="preserve">
+     x="0" y="0" width="42mm" height="64mm"
+	 viewBox="-3.5 0 42 64" enable-background="new -3.5 0 42 64" xml:space="preserve">
 <!-- User units, per the viewBox are in mm, width and height likewise in mm -->
 <g id="silkscreen">
     <rect fill="none" stroke="#FFFFFF" stroke-width="0.75" 
        width="35" height="64" x="0" y="0" ry="17.5" />
-    <text id="textA1"
-        x="29.925" y="12.68" 
-       font-family="OCRA" font-size="8pt" fill="#373435">A1</text>
-    <text id="textA2"
-        x="29.925" y="20.38" 
-       font-family="OCRA" font-size="8pt" fill="#373435">A2</text>
-    <text id="textA3"
-        x="7.075" y="20.38" 
-       font-family="OCRA" font-size="8pt" fill="#373435">A3</text>
     <text id="textA4"
-        x="7.075" y="12.68"
+        x="29.925" y="12.68" 
        font-family="OCRA" font-size="8pt" fill="#373435">A4</text>
-    <text id="textB1"
-        x="7.075" y="51.52"
-       font-family="OCRA" font-size="8pt" fill="#373435">B1</text>
-    <text id="textB2"
-        x="7.075" y="43.62"
-       font-family="OCRA" font-size="8pt" fill="#373435">B2</text>
-    <text id="textB3"
-        x="29.925" y="43.62" 
-       font-family="OCRA" font-size="8pt" fill="#373435">B3</text>
+    <text id="textA3"
+        x="29.925" y="20.38" 
+       font-family="OCRA" font-size="8pt" fill="#373435">A3</text>
+    <text id="textA2"
+        x="7.075" y="20.38" 
+       font-family="OCRA" font-size="8pt" fill="#373435">A2</text>
+    <text id="textA1"
+        x="7.075" y="12.68"
+       font-family="OCRA" font-size="8pt" fill="#373435">A1</text>
     <text id="textB4"
-        x="29.925" y="51.32"
+        x="7.075" y="51.52"
        font-family="OCRA" font-size="8pt" fill="#373435">B4</text>
+    <text id="textB3"
+        x="7.075" y="43.62"
+       font-family="OCRA" font-size="8pt" fill="#373435">B3</text>
+    <text id="textB2"
+        x="29.925" y="43.62" 
+       font-family="OCRA" font-size="8pt" fill="#373435">B2</text>
+    <text id="textB1"
+        x="29.925" y="51.32"
+       font-family="OCRA" font-size="8pt" fill="#373435">B1</text>
+    <g transform= "translate(17.5 22.5)" >
+    <circle id="perimeter" fill="none" stroke="#FFBF00" stroke-width="0.1" r="21"
+        cx="0" cy="0" />
+    <!--   construction circle images
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="4" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="6" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="8" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="10" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="12" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="14" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="16" cx="0" cy="0" />
+    -->
+    <line id="3" x1="0" y1="0" x2="21.00" y2="00.00" stroke-width=".2" stroke="black"/>
+    <line id="6" x1="0" y1="0" x2="00.00" y2="21.00" stroke-width=".2" stroke="black"/>
+    <line id="9" x1="0" y1="0" x2="-21.00" y2="00.00" stroke-width=".2" stroke="black"/>
+    <line id="12" x1="0" y1="0" x2="00.00" y2="-21.00" stroke-width=".2" stroke="black"/>
+    <!--
+    <line id="3" x1="0" y1="0" x2="21.00" y2="00.00" stroke-width=".2" stroke="black"/>
+    <line id="4" x1="0" y1="0" x2="18.18" y2="10.50" stroke-width=".2" stroke="black"/>
+    <line id="5" x1="0" y1="0" x2="10.50" y2="18.18" stroke-width=".2" stroke="black"/>
+    <line id="6" x1="0" y1="0" x2="00.00" y2="21.00" stroke-width=".2" stroke="black"/>
+    <line id="7" x1="0" y1="0" x2="-10.5" y2="18.18" stroke-width=".2" stroke="black"/>
+    <line id="8" x1="0" y1="0" x2="-18.18" y2="10.50" stroke-width=".2" stroke="black"/>
+    <line id="9" x1="0" y1="0" x2="-21.00" y2="00.00" stroke-width=".2" stroke="black"/>
+    <line id="10" x1="0" y1="0" x2="-18.18" y2="-10.5" stroke-width=".2" stroke="black"/>
+    <line id="11" x1="0" y1="0" x2="-10.5" y2="-18.18" stroke-width=".2" stroke="black"/>
+    <line id="12" x1="0" y1="0" x2="00.00" y2="-21.00" stroke-width=".2" stroke="black"/>
+    <line id="1" x1="0" y1="0" x2="10.5" y2="-18.18" stroke-width=".2" stroke="black"/>
+    <line id="2" x1="0" y1="0" x2="18.18" y2="-10.50" stroke-width=".2" stroke="black"/>
+    -->
+    </g>
 </g>
 <g id="copper0">
 	<g id="copper1">
@@ -44,16 +75,16 @@
                           64mm/2 - 23.24.2 - 7.7    =  12.68 mm     -->
         <!-- strokewidth and r are for:
                 lead: .5, holesize: 1.0, pad Diameter: 1.6  -->
-		<circle id="connA1pin" 
+		<circle id="connA4pin" 
             fill="none" stroke="#FFBF00" stroke-width="0.5" 
             cx="28.925" cy="12.68" r="0.8"/>
-		<circle id="connA2pin" 
+		<circle id="connA3pin" 
             fill="none" stroke="#FFBF00" stroke-width="0.5" 
             cx="28.925" cy="20.38" r="0.8"/>
-		<circle id="connA3pin" 
+		<circle id="connA2pin" 
             fill="none" stroke="#FFBF00" stroke-width="0.5"
             cx="6.075" cy="20.38" r="0.8"/>
-		<circle id="connA4pin" 
+		<circle id="connA1pin" 
             fill="none" stroke="#FFBF00" stroke-width="0.5"
             cx="6.075" cy="12.68" r="0.8"/>
 		<circle id="connB1pin" 
@@ -73,18 +104,18 @@
             fill="none" stroke="#FFBF00" stroke-width="0.5" 
             cx="17.5" cy="22.5" r="3.0"/>
         <!-- three alighnment holes, hole dia 3.5
-                (35/2 - 9,  64/2 - 50/2)
-                (35/2 + 12, 64/2)
-                (35/2 - 9   64/2 + 50/2),  -->
+                (35/2 + 9,  64/2 - 50/2)
+                (35/2 - 12, 64/2)
+                (35/2 + 9   64/2 + 50/2),  -->
 		<circle id="align1" 
             fill="none" stroke="#FFBF00" stroke-width="0.2" 
-            cx="8.5" cy="7" r="1.75"/>
+            cx="26.5" cy="7" r="1.75"/>
 		<circle id="align2" 
             fill="none" stroke="#FFBF00" stroke-width="0.2" 
-            cx="29.5" cy="32" r="1.75"/>
+            cx="5.5" cy="32" r="1.75"/>
 		<circle id="align3" 
             fill="none" stroke="#FFBF00" stroke-width="0.2" 
-            cx="8.5" cy="57" r="1.75"/>
+            cx="26.5" cy="57" r="1.75"/>
 	</g>
 </g>
 <g id="keepout">

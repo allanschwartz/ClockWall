@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hand coded by Allan Schwartz, Aug 7, 2017  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+     x="0" y="0" width="100mm" height="100mm"
+	 viewBox="-50 -50 100 100" enable-background="new -50 -50 100 100" xml:space="preserve">
+<!-- User units, per the viewBox are in mm, width and height likewise in mm -->
+<g id="silkscreen">
+    <!--   construction circle images -->
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.4" r="50" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="48" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="46" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="44" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="42" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="40" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="38" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="36" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="34" cx="0" cy="0" /> 
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="32" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="30" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="28" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="26" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="24" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="22" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="20" cx="0" cy="0" />
+    <circle fill="none" stroke="#FFBF00" stroke-width="0.1" r="18" cx="0" cy="0" />
+
+<line id="0" x1="0" y1="0" x2="125.00" y2="0.00" stroke-width=".2" stroke="black"/>
+<line id="5" x1="0" y1="0" x2="108.25" y2="62.50" stroke-width=".2" stroke="black"/>
+<line id="10" x1="0" y1="0" x2="62.50" y2="108.25" stroke-width=".2" stroke="black"/>
+<line id="15" x1="0" y1="0" x2="0.00" y2="125.00" stroke-width=".2" stroke="black"/>
+<line id="20" x1="0" y1="0" x2="-62.50" y2="108.25" stroke-width=".2" stroke="black"/>
+<line id="25" x1="0" y1="0" x2="-108.25" y2="62.50" stroke-width=".2" stroke="black"/>
+<line id="30" x1="0" y1="0" x2="-125.00" y2="0.00" stroke-width=".2" stroke="black"/>
+<line id="35" x1="0" y1="0" x2="-108.25" y2="-62.50" stroke-width=".2" stroke="black"/>
+<line id="40" x1="0" y1="0" x2="-62.50" y2="-108.25" stroke-width=".2" stroke="black"/>
+<line id="45" x1="0" y1="0" x2="-0.00" y2="-125.00" stroke-width=".2" stroke="black"/>
+<line id="50" x1="0" y1="0" x2="62.50" y2="-108.25" stroke-width=".2" stroke="black"/>
+<line id="55" x1="0" y1="0" x2="108.25" y2="-62.50" stroke-width=".2" stroke="black"/>
+<line id="60" x1="0" y1="0" x2="125.00" y2="-0.00" stroke-width=".2" stroke="black"/>
+
+
+
+</g>
+</svg>

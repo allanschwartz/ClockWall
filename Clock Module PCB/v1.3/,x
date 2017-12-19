@@ -1,0 +1,13 @@
+<line id="0" x1="0" y1="0" x2="125.00" y2="0.00" stroke-width=".2" stroke="black"/>
+<line id="5" x1="0" y1="0" x2="108.25" y2="62.50" stroke-width=".2" stroke="black"/>
+<line id="10" x1="0" y1="0" x2="62.50" y2="108.25" stroke-width=".2" stroke="black"/>
+<line id="15" x1="0" y1="0" x2="0.00" y2="125.00" stroke-width=".2" stroke="black"/>
+<line id="20" x1="0" y1="0" x2="-62.50" y2="108.25" stroke-width=".2" stroke="black"/>
+<line id="25" x1="0" y1="0" x2="-108.25" y2="62.50" stroke-width=".2" stroke="black"/>
+<line id="30" x1="0" y1="0" x2="-125.00" y2="0.00" stroke-width=".2" stroke="black"/>
+<line id="35" x1="0" y1="0" x2="-108.25" y2="-62.50" stroke-width=".2" stroke="black"/>
+<line id="40" x1="0" y1="0" x2="-62.50" y2="-108.25" stroke-width=".2" stroke="black"/>
+<line id="45" x1="0" y1="0" x2="-0.00" y2="-125.00" stroke-width=".2" stroke="black"/>
+<line id="50" x1="0" y1="0" x2="62.50" y2="-108.25" stroke-width=".2" stroke="black"/>
+<line id="55" x1="0" y1="0" x2="108.25" y2="-62.50" stroke-width=".2" stroke="black"/>
+<line id="60" x1="0" y1="0" x2="125.00" y2="-0.00" stroke-width=".2" stroke="black"/>

@@ -3,9 +3,9 @@
 #include <avr/power.h>
 #endif
 
-#define NEO_PIN 6
+#define NEO_PIN D6
 
-#define NEO_NUM_LEDS 12
+#define NEO_NUM_LEDS 36
 
 #define BRIGHTNESS 50
 
